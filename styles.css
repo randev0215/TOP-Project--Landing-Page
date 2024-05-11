@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body, html {
+  overflow-y: auto; /* or overflow-y: scroll; */
+}
+
+  ul {
+    list-style: none;
+  }
+
+  li a{
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /* NAVBAR and BANNER SECTION */
+
+  .container-1 {
+    height: 80vh;
+    padding: 0 150px;
+    background-color: #1F2937;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10vh;
+    padding: 10px;
+  }
+
+  .logo {
+    max-height: 50px;
+  }
+
+  .nav-links-list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .nav-links-list li a:hover {
+    color: #3882F6;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 50px;
+  }
+
+  .banner-desc {
+    font-size: 20px;
+  }
+
+  .banner-desc > * {
+    margin-bottom: 12px;
+  }
+
+  .banner-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+  }
+
+  .button-signup {
+    /* background: none;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: #F9FAF8;;
+    border-radius: 10px; */
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+
+  .button-signup:hover {
+    background-color: #0056b3;
+  }
+
+  .button-signup:active {
+    background-color: #004080;
+  }
+
+  .banner-img {
+    flex-grow: 2;
+    flex-basis: 60%;
+    overflow: hidden;
+  }
+
+  .banner-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* HIGHLIGHT INFORMATION */
+
+  .highlights {
+    height: 55vh;
+    padding: 0 180px 0 180px;
+    background-color: #F9FAF8;
+  }
+
+
+  .highlights-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .highlights-card {
+    text-align: center;
+    height: 300px;
+    width: 250px;
+  }
+
+  .highlights-img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .highlights-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* QUOTE SECTION */
+
+  .quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 80px 180px;
+  }
+
+  .quote {
+    width: 1200px;
+    text-align: center;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+  }
+
+  .quote-span {
+    font-weight: bolder;
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+  }
+
+  /* SIGN UP SECTION */
+
+  .signup-section {
+    padding: 90px 180px;
+  }
+
+  .signup-card {
+    color: #E5E7EB;
+    padding: 50px 120px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-sec-signup {
+    /* background: none;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px  25px;
+    border-radius: 5px; */
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button-sec-signup:hover {
+    background-color: #0056b3;
+  }
+
+  .button-sec-signup:active {
+    background-color: #004080;
+  }
+
+  .signup-desc {
+    font-size: 18px;
+  }
+
+  .signup-desc-bold {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .footer {
+    padding: 40px 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1F2937;
+  }
